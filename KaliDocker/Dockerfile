@@ -1,6 +1,6 @@
 FROM kalilinux/kali-rolling
 
-LABEL maintainer="gemini"
+LABEL maintainer="Alberto Llorens"
 LABEL description="Kali Linux con XFCE y XRDP"
 
 ARG USER=kali
