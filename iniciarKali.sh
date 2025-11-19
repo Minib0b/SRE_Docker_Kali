@@ -12,7 +12,7 @@ RDP_PORT="13389"
 # RUTA DEL VOLUMEN EN LA MÁQUINA ANFITRIONA
 # Este directorio almacenará de forma persistente el contenido de /home/kali del contenedor.
 # Se crea en el directorio de usuario del host.
-LOCAL_STORAGE_PATH="$HOME/kali-forense-data"
+LOCAL_STORAGE_PATH="./kali-forense-data"
 
 # OPCIONES CORREGIDAS: 
 # Se añade -v para la persistencia del volumen.
