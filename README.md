@@ -45,3 +45,10 @@ Ejecuta el script desde la carpeta principal del repositorio:
 
 ```bash
 sudo ./iniciarKali.sh
+```
+>__Para la primera vez:__
+>Si ves que no te deja ejecutar el script _iniciarKali.sh_, prueba a otorgarle permisos de ejecución con el comando `chmod +x iniciarKali.sh`
+
+### Paso 4: Conectarte al escritorio remoto
+
+Para conectarte deberás introducir la dirección de la máquina (rdcXX.redes.upv.es:13889) y usar las credenciales `kali`/`kali`
