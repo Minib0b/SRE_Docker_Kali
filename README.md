@@ -16,8 +16,8 @@ Asegúrate de tener instalado y en funcionamiento:
 
 #### En la máquina del laboratorio
 
-1.  **Docker Engine:** Para construir y ejecutar contenedores.
-2.  **Permisos de `sudo`:** Todos los comandos de Docker y el script de inicio requieren permisos de administrador (_ya deberías contar con esto en las máquinas del laboratorio_).
+1.  **Docker Engine:** Para construir y ejecutar contenedores: `sudo snap install docker `.
+3.  **Permisos de `sudo`:** Todos los comandos de Docker y el script de inicio requieren permisos de administrador (_ya deberías contar con esto en las máquinas del laboratorio_).
 
 #### En tu ordenador
 
