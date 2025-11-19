@@ -42,13 +42,19 @@ El script `iniciarKali.sh` se encarga de:
 3.  Si no existe, crea un nuevo contenedor, asignándole la red `host` y las capacidades `NET_ADMIN` necesarias para las herramientas forenses.
 
 Ejecuta el script desde la carpeta principal del repositorio:
+>__Para la primera vez:__
+>Si ves que no te deja ejecutar el script _iniciarKali.sh_, prueba a otorgarle permisos de ejecución con el comando `chmod +x iniciarKali.sh`
+
 
 ```bash
 sudo ./iniciarKali.sh
 ```
->__Para la primera vez:__
->Si ves que no te deja ejecutar el script _iniciarKali.sh_, prueba a otorgarle permisos de ejecución con el comando `chmod +x iniciarKali.sh`
 
 ### Paso 4: Conectarte al escritorio remoto
 
 Para conectarte deberás introducir la dirección de la máquina (rdcXX.redes.upv.es:13389) y usar las credenciales `kali`/`kali`
+
+## 📝 Notas
+
+- El contenedor está diseñado para que utilice la misma red e IP que la máquina host, por lo que podrá comunicarse con el resto de máquinas del laboratorio.
+- En el directorio del repositorio se creará automaticamente un nuevo subdirectorio `kali-forense-data` donde se guardará todo el contenido del directorio $HOME del contenedor (subdirectorios incluidos). Por lo que si se necesita guardar algo, habrá que guardarlo en $HOME del contenedor.
