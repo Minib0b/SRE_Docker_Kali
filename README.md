@@ -51,4 +51,4 @@ sudo ./iniciarKali.sh
 
 ### Paso 4: Conectarte al escritorio remoto
 
-Para conectarte deberás introducir la dirección de la máquina (rdcXX.redes.upv.es:13889) y usar las credenciales `kali`/`kali`
+Para conectarte deberás introducir la dirección de la máquina (rdcXX.redes.upv.es:13389) y usar las credenciales `kali`/`kali`
